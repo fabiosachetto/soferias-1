@@ -3,11 +3,15 @@ motor de hospedagem deve ter:
 
 Visualização clara de planos: Os planos de hospedagem devem ser apresentados de forma clara e concisa, com destaque 
 para os principais benefícios e preços.
+
 Comparação de planos: O usuário deve ter a possibilidade de comparar os diferentes planos de forma fácil e intuitiva.
+
 Informações detalhadas: Cada plano deve conter informações detalhadas sobre recursos, especificações técnicas e termos 
 de serviço.
+
 Formulário de cadastro: Um formulário de cadastro bem estruturado para que o usuário possa se cadastrar e adquirir um 
 plano.
+
 Responsividade: O layout deve se adaptar a diferentes tamanhos de tela, garantindo uma boa experiência para o usuário 
 em dispositivos móveis e desktops.
 
