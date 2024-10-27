@@ -30,10 +30,10 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         
         <Image 
-          src={Logotipo}
-          alt="Só Férias"
-          width={100}
-          height={100}
+          src = {Logotipo}
+          alt = "Só Férias"
+          width = {100}
+          height = {100}
         />
         
         {children}
