@@ -1,5 +1,7 @@
+import Logotipo from "@/app/images/logo.jpeg";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import Image from "next/image";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -26,7 +28,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-
+        
+        <Image 
+          src={Logotipo}
+          alt="Só Férias"
+          width={100}
+          height={100}
+        />
+        
         {children}
         
       </body>
