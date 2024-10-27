@@ -1,7 +1,6 @@
-import Logotipo from "@/app/images/logo.jpeg";
+import { Navbar } from "@/components/Navbar";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import Image from "next/image";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -9,6 +8,7 @@ const geistSans = localFont({
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
@@ -27,18 +27,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        
-        <Image 
-          src = {Logotipo}
-          alt = "Só Férias"
-          width = {100}
-          height = {100}
-        />
-        
+      <body className={`${geistSans.variable} ${geistMono.variable} flex gap-2`}>
+
+        <Navbar />
+
         {children}
         
       </body>
     </html>
   );
-}
+};
