@@ -27,12 +27,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} flex gap-2`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} bg-[url('https://lh3.googleusercontent.com/p/AF1QipOOzFcQwkYeGJv9kQzPhZLq1lmUsY5um8iwXkEV=s1360-w1360-h1020')]`}>
 
         <Navbar />
 
-        {children}
-        
+        <section className="pt-32">
+          {children}
+        </section>
+
       </body>
     </html>
   );

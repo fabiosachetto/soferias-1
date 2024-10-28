@@ -12,5 +12,13 @@ const config: Config = {
     },
   },
   plugins: [],
+
+  backgroundImage: {
+    remotePatterns: [
+      {
+        hostname: "lh3.googleusercontent.com"
+      },
+    ],
+  },
 };
 export default config;

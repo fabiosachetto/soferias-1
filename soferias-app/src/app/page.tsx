@@ -1,3 +1,7 @@
 export default function Home() {
-  return <h1>Só Férias</h1>
+  return (
+    <div>
+      <h1 className="text-9xl">Só Férias</h1>
+    </div>
+  );
 }
