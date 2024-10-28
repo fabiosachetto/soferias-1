@@ -59,4 +59,5 @@ Implementação de um formulário de contato
 Lembre-se: A criação de um layout é um processo iterativo. Comece com um layout básico e vá refinando conforme as suas 
 necessidades e o feedback dos usuários.
 
-Gostaria de começar por onde? Podemos criar um plano detalhado para o seu projeto e te auxiliar em cada etapa.
+
+https://www.youtube.com/playlist?list=PLcw81C8ToGAecySAVaUHWGPtV-OieTbyT
