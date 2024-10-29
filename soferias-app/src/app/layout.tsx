@@ -31,7 +31,7 @@ export default function RootLayout({
 
         <Navbar />
 
-        <section className="pt-32">
+        <section className="pt-28">
           {children}
         </section>
 
