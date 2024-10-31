@@ -1,14 +1,17 @@
 export default function Home() {
   return (
     <div className="columns-2 flex min-h-full justify-center px-6 py-12 lg:px-8">
-      <div className="text-white bg-opacity-70 w-2/5">
-        <h1 className="text-3xl">Contato.</h1>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
+      <div className="mr-1.5 pr-7 rounded-lg text-white bg-blue-500/70 w-2/5">
+        <div className="p-6">
+          <h1 className="text-3xl mb-5">Casa Athenas Paraty</h1>
+          <h2 className="text-2xl mb-10">Venha Conhecer Paraty</h2>
+          <p>
+            Paraty é uma pequena cidade com montanhas como pano de fundo na Costa Verde do Brasil, entre o Rio de Janeiro e São Paulo. O seu centro colonial português possui ruas calcetadas e edifícios dos séculos XVII e XVIII da altura em que funcionava como um porto, durante o ciclo do ouro brasileiro. Entre os seus pontos de referência arquitetónicos encontra-se a Capela de Santa Rita à beira-mar, uma igreja caiada construída em 1722.
+          </p>
+        </div>
       </div>
 
-      <div className="rounded-lg bg-white bg-opacity-70 w-2/5">
+      <div className="ml-1.5 rounded-lg bg-white bg-opacity-70 w-2/5">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <h2 className="mt-10 text-2xl/9 font-bold tracking-tight text-blue-500">
             Procure Disponibilidade
@@ -31,32 +34,38 @@ export default function Home() {
               </div>
             </div>
 
-            <div>
-              <div className="flex items-center justify-between">
-                <label htmlFor="date" className="block text-sm/6 font-medium text-gray-900">
-                  Check-in
-                </label>
+            <div className="w-full grid grid-cols-1 md:grid-cols-2">
+
+              <div className="mr-1.5">
+                <div className="flex items-center justify-between">
+                  <label htmlFor="date" className="block text-sm/6 font-medium text-gray-900">
+                    Check-in
+                  </label>
+                </div>
+                <div className="mt-2">
+                  <input
+                    id="date"
+                    name="date"
+                    type="date"
+                    className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
+                  />
+                </div>
               </div>
-              <div className="mt-2">
-                <input
-                  id="date"
-                  name="date"
-                  type="date"
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
-                />
-              </div>
-              <div className="flex mt-3 items-center justify-between">
-                <label htmlFor="date" className="block text-sm/6 font-medium text-gray-900">
-                  Check-out
-                </label>
-              </div>
-              <div className="mt-2">
-                <input
-                  id="date"
-                  name="date"
-                  type="date"
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
-                />
+
+              <div className="ml-1.5">
+                <div className="flex items-center justify-between">
+                  <label htmlFor="date" className="block text-sm/6 font-medium text-gray-900">
+                    Check-out
+                  </label>
+                </div>
+                <div className="mt-2">
+                  <input
+                    id="date"
+                    name="date"
+                    type="date"
+                    className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
+                  />
+                </div>
               </div>
             </div>
 
