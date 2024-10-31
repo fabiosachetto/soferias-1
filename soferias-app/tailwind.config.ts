@@ -16,7 +16,7 @@ const config: Config = {
   backgroundImage: {
     remotePatterns: [
       {
-        hostname: "lh3.googleusercontent.com"
+        hostname: "euamoparaty.com.br"
       },
     ],
   },

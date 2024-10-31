@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Navbar = () => {
   return (
-    <header className="w-full fixed text-center border-4 border-blue-800 hover:border-blue-500 bg-amber-300 hover:bg-amber-200">
+    <header className="w-full fixed text-center bg-white bg-opacity-70">
       <section className="mt-2 inline-block mx-auto text-center w-3/4">
         <h1 className="float-left">
           <a href="/" className="">
@@ -12,13 +12,13 @@ export const Navbar = () => {
               src={Logotipo}
               alt="Só Férias"
               title="Só Férias"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
             />
           </a>
         </h1>
 
-        <nav className="float-right min-h-5 mt-7">
+        <nav className="float-right min-h-5 mt-1">
           <ol className="mr-4 float-left text-white border-blue-800 hover:border-blue-500">
             <li className="float-left mr-4 pt-2 pb-2 px-4 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800">
               <a href="/" className="block" title="Home">Home</a>

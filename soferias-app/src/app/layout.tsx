@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} bg-[url('https://lh3.googleusercontent.com/p/AF1QipOOzFcQwkYeGJv9kQzPhZLq1lmUsY5um8iwXkEV=s1360-w1360-h1020')]`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} bg-[url("https://euamoparaty.com.br/wp-content/uploads/2016/05/paraty-2.jpg")]`}>
 
         <Navbar />
 
