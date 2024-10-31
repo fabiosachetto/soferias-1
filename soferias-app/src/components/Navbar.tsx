@@ -1,12 +1,13 @@
 import Logotipo from "@/app/images/logo.png";
 import Image from "next/image";
+import Link from "next/link";
 
 export const Navbar = () => {
   return (
     <header className="w-full fixed text-center bg-white bg-opacity-70">
       <section className="mt-2 inline-block mx-auto text-center w-3/4">
         <h1 className="float-left">
-          <a href="/" className="">
+          <Link href="/" className="">
             <Image
               className=""
               src={Logotipo}
@@ -15,31 +16,31 @@ export const Navbar = () => {
               width={50}
               height={50}
             />
-          </a>
+          </Link>
         </h1>
 
         <nav className="float-right min-h-5 mt-1">
           <ol className="mr-4 float-left font-semibold text-white border-blue-800 hover:border-blue-500">
             <li className="float-left mr-4 py-2 px-4 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800">
-              <a href="/" className="block" title="Home">Home</a>
+              <Link href="/" className="block" title="Home">Home</Link>
             </li>
             <li className="float-left mr-4 py-2 px-4 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800">
-              <a href="nossacasa" className="block" title="Nossa Casa">Nossa Casa</a>
+              <Link href="nossacasa" className="block" title="Nossa Casa">Nossa Casa</Link>
             </li>
             <li className="float-left mr-4 py-2 px-4 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800">
-              <a href="suites" className="block" title="Suítes">Suítes</a>
+              <Link href="suites" className="block" title="Suítes">Suítes</Link>
             </li>
             <li className="float-left mr-4 py-2 px-4 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800">
-              <a href="contato" className="block" title="Contato">Contato</a>
+              <Link href="contato" className="block" title="Contato">Contato</Link>
             </li>
             <li className="float-left py-2 px-4 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800">
-              <a href="sobre" className="block" title="Sobre">Sobre</a>
+              <Link href="sobre" className="block" title="Sobre">Sobre</Link>
             </li>
           </ol>
 
           <ol className="float-left font-semibold text-white border-blue-800 hover:border-blue-500">
             <li className="py-2 px-4 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800">
-              <a href="login" className="block" title="Login">Login</a>
+              <Link href="login" className="block" title="Login">Login</Link>
             </li>
           </ol>
 
