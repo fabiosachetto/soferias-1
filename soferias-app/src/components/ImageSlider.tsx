@@ -100,8 +100,8 @@ export default function ImageSlider(): JSX.Element {
           <div
             key={index}
             className={`h-1 w-10 mx-1 ${index === currentIndex
-                ? "bg-[#beff46] rounded-xl"
-                : "bg-gray-300 rounded-xl"
+              ? "bg-[#beff46] rounded-xl"
+              : "bg-gray-300 rounded-xl"
               } transition-all duration-500 ease-in-out`}
           ></div>
         ))}
