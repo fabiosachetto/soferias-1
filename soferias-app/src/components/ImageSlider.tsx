@@ -80,7 +80,7 @@ export default function ImageSlider(): JSX.Element {
   return (
     <div className="relative w-full mx-auto mt-4">
       <div
-        className="relative h-[460px] mx-12 group hover:-translate-y-2"
+        className="relative h-[460px] mx-12 group"
       // onMouseOver={handleMouseOver}
       // onMouseLeave={handleMouseLeave}
       >
@@ -114,7 +114,7 @@ export default function ImageSlider(): JSX.Element {
               } transition-all duration-500 ease-in-out`}
           ></div>
         ))} */}
-        
+
       </div>
     </div>
   );
