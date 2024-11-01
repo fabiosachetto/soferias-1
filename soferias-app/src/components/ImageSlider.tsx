@@ -29,7 +29,7 @@ export default function ImageSlider(): JSX.Element {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   // State to determine if the image is being hovered over
-  // const [isHovered, setIsHovered] = useState<boolean>(false);
+  const [isHovered, setIsHovered] = useState<boolean>(false);
 
   // Function to show the previous slide
   const prevSlide = (): void => {
@@ -46,43 +46,34 @@ export default function ImageSlider(): JSX.Element {
   // useEffect hook to handle automatic slide transition
   useEffect(() => {
     // Start interval for automatic slide change if not hovered
-    // if (!isHovered) {
-    //   const interval = setInterval(() => {
-    //     nextSlide();
-    //   }, 3000);
+    if (!isHovered) {
+      const interval = setInterval(() => {
+        nextSlide();
+      }, 3000);
 
-    //   // Cleanup the interval on component unmount
-    //   return () => {
-    //     clearInterval(interval);
-    //   };
-    // }
-    const interval = setInterval(() => {
-      nextSlide();
-    }, 3000);
-
-    // Cleanup the interval on component unmount
-    return () => {
-      clearInterval(interval);
-    };
-  });
-  // }, [isHovered]);
+      // Cleanup the interval on component unmount
+      return () => {
+        clearInterval(interval);
+      };
+    }
+  }, [isHovered]);
 
   // Handle mouse over event
-  // const handleMouseOver = (): void => {
-  //   setIsHovered(true);
-  // };
+  const handleMouseOver = (): void => {
+    setIsHovered(true);
+  };
 
   // Handle mouse leave event
-  // const handleMouseLeave = (): void => {
-  //   setIsHovered(false);
-  // };
+  const handleMouseLeave = (): void => {
+    setIsHovered(false);
+  };
 
   return (
     <div className="relative w-full mx-auto mt-4">
       <div
-        className="relative h-[460px] mx-12 group"
-      // onMouseOver={handleMouseOver}
-      // onMouseLeave={handleMouseLeave}
+        className="relative h-[460px] mx-12 group hover:-translate-y-2"
+        onMouseOver={handleMouseOver}
+        onMouseLeave={handleMouseLeave}
       >
         <Image
           src={images[currentIndex].src}
@@ -105,16 +96,15 @@ export default function ImageSlider(): JSX.Element {
         <ChevronRight className="text-gray-400 group-hover:text-white" />
       </button>
       <div className="flex justify-center mt-4">
-        {/* {images.map((_, index) => (
+        {images.map((_, index) => (
           <div
             key={index}
             className={`h-1 w-10 mx-1 ${index === currentIndex
-              ? "bg-blue-500 rounded-xl"
-              : "bg-gray-300 rounded-xl"
+                ? "bg-[#beff46] rounded-xl"
+                : "bg-gray-300 rounded-xl"
               } transition-all duration-500 ease-in-out`}
           ></div>
-        ))} */}
-
+        ))}
       </div>
     </div>
   );
