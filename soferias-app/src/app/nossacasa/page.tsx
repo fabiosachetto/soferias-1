@@ -1,7 +1,7 @@
 import Entrada from "@/app/images/entrada.jpg";
 import Image from "next/image";
 
-export default function Planos() {
+export default function NossaCasa() {
   return (
     <div>
       <h1 className="text-9xl text-white">Nossa Casa</h1>
