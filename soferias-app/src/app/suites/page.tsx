@@ -1,4 +1,4 @@
-import ImageSlider from '@/components/ImageSlider';
+// import ImageSlider from '@/components/ImageSlider';
 
 export default function Suites() {
   return (
@@ -9,7 +9,7 @@ export default function Suites() {
       <h1 className="text-9xl text-white">Suítes.</h1>
       <div>
         <main className="flex min-h-screen flex-col items-center justify-center py-2">
-          <ImageSlider />
+          {/* <ImageSlider /> */}
         </main>
       </div>
     </div>
