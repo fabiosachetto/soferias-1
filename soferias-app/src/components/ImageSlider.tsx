@@ -105,7 +105,7 @@ export default function ImageSlider(): JSX.Element {
         <ChevronRight className="text-gray-400 group-hover:text-white" />
       </button>
       <div className="flex justify-center mt-4">
-        {images.map((_, index) => (
+        {/* {images.map((_, index) => (
           <div
             key={index}
             className={`h-1 w-10 mx-1 ${index === currentIndex
@@ -113,7 +113,8 @@ export default function ImageSlider(): JSX.Element {
               : "bg-gray-300 rounded-xl"
               } transition-all duration-500 ease-in-out`}
           ></div>
-        ))}
+        ))} */}
+        
       </div>
     </div>
   );
