@@ -1,6 +1,7 @@
 import Logotipo from "@/app/images/logo.png";
 import Image from "next/image";
 import Link from "next/link";
+import { ContatoIcon, HomeIcon, LoginIcon, NossaCasaIcon, SobreIcon, SuitesIcon } from "../Icons/Icons";
 
 export const Navbar = () => {
   return (
@@ -20,27 +21,45 @@ export const Navbar = () => {
         </h1>
 
         <nav className="float-right min-h-5 mt-1">
-          <ol className="mr-4 float-left font-semibold text-white border-blue-800 hover:border-blue-500">
-            <li className="float-left mr-4 py-2 px-4 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800">
-              <Link href="/" className="block" title="Home">Home</Link>
+          <ol className="mr-4 float-left font-semibold text-white">
+            <li className="float-left mr-4">
+              <Link href="/" className="float-left py-2 px-6 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800" title="Home">
+                <HomeIcon />
+                Home
+              </Link>
             </li>
-            <li className="float-left mr-4 py-2 px-4 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800">
-              <Link href="nossacasa" className="block" title="Nossa Casa">Nossa Casa</Link>
+            <li className="float-left mr-4">
+              <Link href="nossacasa" className="float-left py-2 px-6 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800" title="Nossa Casa">
+                <NossaCasaIcon />
+                Nossa Casa
+              </Link>
             </li>
-            <li className="float-left mr-4 py-2 px-4 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800">
-              <Link href="suites" className="block" title="Suítes">Suítes</Link>
+            <li className="float-left mr-4">
+              <Link href="suites" className="float-left py-2 px-6 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800" title="Suítes">
+                <SuitesIcon />
+                Suítes
+              </Link>
             </li>
-            <li className="float-left mr-4 py-2 px-4 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800">
-              <Link href="contato" className="block" title="Contato">Contato</Link>
+            <li className="float-left mr-4">
+              <Link href="contato" className="float-left py-2 px-6 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800" title="Contato">
+                <ContatoIcon />
+                Contato
+              </Link>
             </li>
-            <li className="float-left py-2 px-4 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800">
-              <Link href="sobre" className="block" title="Sobre">Sobre</Link>
+            <li className="float-left mr-4">
+              <Link href="sobre" className="float-left py-2 px-6 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800" title="Sobre">
+                <SobreIcon />
+                Sobre
+              </Link>
             </li>
           </ol>
 
-          <ol className="float-left font-semibold text-white border-blue-800 hover:border-blue-500">
-            <li className="py-2 px-4 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800">
-              <Link href="login" className="block" title="Login">Login</Link>
+          <ol className="float-left font-semibold text-white">
+            <li className="float-left mr-4">
+              <Link href="login" className="float-left py-2 px-6 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800" title="Login">
+                <LoginIcon />
+                Login
+              </Link>
             </li>
           </ol>
 
