@@ -3,7 +3,7 @@ export default function Home() {
     <div className="columns-2 flex min-h-full justify-center px-6 py-12 lg:px-8">
       <div className="mr-1.5 pr-7 rounded-lg text-white bg-blue-500/70 w-2/5">
         <div className="p-6">
-          <h1 className="text-3xl mb-5">Casa Athenas Paraty</h1>
+          <h1 className="text-3xl mb-5">Só Férias Paraty</h1>
           <h2 className="text-2xl mb-10">Venha Conhecer Paraty</h2>
           <p>
             Paraty é uma pequena cidade com montanhas como pano de fundo na Costa Verde do Brasil, entre o Rio de Janeiro e São Paulo. O seu centro colonial português possui ruas calcetadas e edifícios dos séculos XVII e XVIII da altura em que funcionava como um porto, durante o ciclo do ouro brasileiro. Entre os seus pontos de referência arquitetónicos encontra-se a Capela de Santa Rita à beira-mar, uma igreja caiada construída em 1722.
