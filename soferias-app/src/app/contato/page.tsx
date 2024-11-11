@@ -2,7 +2,7 @@
 
 export default function Contato() {
   return (
-    <div className="flex min-h-full justify-center px-6 lg:px-8">
+    <div className="flex min-h-full justify-center px-6 pt-10 lg:px-8">
 
 
       <div className="rounded-lg bg-white bg-opacity-70 w-1/2">

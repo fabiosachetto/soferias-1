@@ -1,9 +1,7 @@
-import Logotipo from "@/app/images/logo.png";
-import Image from "next/image";
-import Link from "next/link";
-// import { ContatoIcon, HomeIcon, LoginIcon, NossaCasaIcon, SobreIcon, SuitesIcon } from "../Icons/Icons";
 import { ContatoIcon, HomeIcon, LoginIcon, NossaCasaIcon, SobreIcon, SuitesIcon } from "@/components/Icons/Icons";
 import { cn } from "@/helpers/cn";
+import Image from "next/image";
+import Link from "next/link";
 
 type NavbarTagProps = React.ComponentProps<"nav">;
 type NavbarOlProps = React.ComponentProps<"ol">;
@@ -41,7 +39,7 @@ export const Navbar = () => {
           <Link href="/" className="">
             <Image
               className=""
-              src={Logotipo}
+              src="/assets/images/logo.png"
               alt="Só Férias"
               title="Só Férias"
               width={50}

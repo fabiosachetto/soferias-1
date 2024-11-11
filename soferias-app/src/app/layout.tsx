@@ -27,11 +27,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <body className={`${geistSans.variable} ${geistMono.variable} bg-[url("https://euamoparaty.com.br/wp-content/uploads/2016/05/paraty-2.jpg")]`}> */}
-      <body className={`${geistSans.variable} ${geistMono.variable} bg-slate-600`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} bg-[url("https://euamoparaty.com.br/wp-content/uploads/2016/05/paraty-2.jpg")]`}>
+        {/* <body className={`${geistSans.variable} ${geistMono.variable} bg-slate-600`}> */}
         <Navbar />
 
-        <section className="pt-32">
+        <section className="pt-16">
           {children}
         </section>
 
