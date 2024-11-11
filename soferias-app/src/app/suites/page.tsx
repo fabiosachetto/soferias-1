@@ -1,5 +1,6 @@
 import Suite1 from "@/app/images/suite1.jpeg";
 import Suite2 from "@/app/images/suite2.jpeg";
+import Suite3 from "@/app/images/suite3.jpeg";
 import Image from "next/image";
 
 export default function Suites() {
@@ -10,38 +11,255 @@ export default function Suites() {
 
       <picture className="container mx-auto my-6">
         <div className="grid gap-4 grid-cols-2">
-          <div className="flex gap-4">
-            <Image
-              src={Suite1}
-              alt="Suíte 1"
-              title="Suíte 1"
-              width={850}
-              height={315}
-              className="w-auto h-[200px] border-4 border-white"
-            />
+          <div className="grid gap-4 grid-cols-2">
+            <div className="flex gap-4">
+              <Image
+                src={Suite1}
+                alt="Suíte 1"
+                title="Suíte 1"
+                width={850}
+                height={315}
+                className="w-auto h-[200px] border-4 border-white"
+              />
+            </div>
+            <div className="flex flex-col gap-2 py-4">
+              <h2>Suíte 1</h2>
+              <p>Descrição da Suíte</p>
+              <button>Ler Mais</button>
+            </div>
           </div>
-          <div className="flex flex-col gap-2 py-4">
-            <h2>Suíte 1</h2>
-            <p>Descrição da Suíte</p>
-            <button>Ler Mais</button>
-          </div>
-        </div>
 
-        <div className="grid gap-4 grid-cols-2">
-          <div className="flex gap-4">
-            <Image
-              src={Suite2}
-              alt="Suíte 1"
-              title="Suíte 1"
-              width={850}
-              height={315}
-              className="w-auto h-[200px] border-4 border-white"
-            />
+          <div className="grid gap-4 grid-cols-2">
+            <div className="flex gap-4">
+              <Image
+                src={Suite2}
+                alt="Suíte 1"
+                title="Suíte 1"
+                width={850}
+                height={315}
+                className="w-auto h-[200px] border-4 border-white"
+              />
+            </div>
+            <div className="flex flex-col gap-2 py-4">
+              <h2>Suíte 2</h2>
+              <p>Descrição da Suíte</p>
+              <button>Ler Mais</button>
+            </div>
           </div>
-          <div className="flex flex-col gap-2 py-4">
-            <h2>Suíte 2</h2>
-            <p>Descrição da Suíte</p>
-            <button>Ler Mais</button>
+
+          <div className="grid gap-4 grid-cols-2">
+            <div className="flex gap-4">
+              <Image
+                src={Suite3}
+                alt="Suíte 3"
+                title="Suíte 3"
+                width={850}
+                height={315}
+                className="w-auto h-[200px] border-4 border-white"
+              />
+            </div>
+            <div className="flex flex-col gap-2 py-4">
+              <h2>Suíte 3</h2>
+              <p>Descrição da Suíte</p>
+              <button>Ler Mais</button>
+            </div>
+          </div>
+
+          <div className="grid gap-4 grid-cols-2">
+            <div className="flex gap-4">
+              <Image
+                src={Suite2}
+                alt="Suíte 1"
+                title="Suíte 1"
+                width={850}
+                height={315}
+                className="w-auto h-[200px] border-4 border-white"
+              />
+            </div>
+            <div className="flex flex-col gap-2 py-4">
+              <h2>Suíte 2</h2>
+              <p>Descrição da Suíte</p>
+              <button>Ler Mais</button>
+            </div>
+          </div>
+
+          <div className="grid gap-4 grid-cols-2">
+            <div className="flex gap-4">
+              <Image
+                src={Suite1}
+                alt="Suíte 1"
+                title="Suíte 1"
+                width={850}
+                height={315}
+                className="w-auto h-[200px] border-4 border-white"
+              />
+            </div>
+            <div className="flex flex-col gap-2 py-4">
+              <h2>Suíte 1</h2>
+              <p>Descrição da Suíte</p>
+              <button>Ler Mais</button>
+            </div>
+          </div>
+
+          <div className="grid gap-4 grid-cols-2">
+            <div className="flex gap-4">
+              <Image
+                src={Suite2}
+                alt="Suíte 1"
+                title="Suíte 1"
+                width={850}
+                height={315}
+                className="w-auto h-[200px] border-4 border-white"
+              />
+            </div>
+            <div className="flex flex-col gap-2 py-4">
+              <h2>Suíte 2</h2>
+              <p>Descrição da Suíte</p>
+              <button>Ler Mais</button>
+            </div>
+          </div>
+
+          <div className="grid gap-4 grid-cols-2">
+            <div className="flex gap-4">
+              <Image
+                src={Suite1}
+                alt="Suíte 1"
+                title="Suíte 1"
+                width={850}
+                height={315}
+                className="w-auto h-[200px] border-4 border-white"
+              />
+            </div>
+            <div className="flex flex-col gap-2 py-4">
+              <h2>Suíte 1</h2>
+              <p>Descrição da Suíte</p>
+              <button>Ler Mais</button>
+            </div>
+          </div>
+
+          <div className="grid gap-4 grid-cols-2">
+            <div className="flex gap-4">
+              <Image
+                src={Suite2}
+                alt="Suíte 1"
+                title="Suíte 1"
+                width={850}
+                height={315}
+                className="w-auto h-[200px] border-4 border-white"
+              />
+            </div>
+            <div className="flex flex-col gap-2 py-4">
+              <h2>Suíte 2</h2>
+              <p>Descrição da Suíte</p>
+              <button>Ler Mais</button>
+            </div>
+          </div>
+
+          <div className="grid gap-4 grid-cols-2">
+            <div className="flex gap-4">
+              <Image
+                src={Suite1}
+                alt="Suíte 1"
+                title="Suíte 1"
+                width={850}
+                height={315}
+                className="w-auto h-[200px] border-4 border-white"
+              />
+            </div>
+            <div className="flex flex-col gap-2 py-4">
+              <h2>Suíte 1</h2>
+              <p>Descrição da Suíte</p>
+              <button>Ler Mais</button>
+            </div>
+          </div>
+
+          <div className="grid gap-4 grid-cols-2">
+            <div className="flex gap-4">
+              <Image
+                src={Suite2}
+                alt="Suíte 1"
+                title="Suíte 1"
+                width={850}
+                height={315}
+                className="w-auto h-[200px] border-4 border-white"
+              />
+            </div>
+            <div className="flex flex-col gap-2 py-4">
+              <h2>Suíte 2</h2>
+              <p>Descrição da Suíte</p>
+              <button>Ler Mais</button>
+            </div>
+          </div>
+
+          <div className="grid gap-4 grid-cols-2">
+            <div className="flex gap-4">
+              <Image
+                src={Suite1}
+                alt="Suíte 1"
+                title="Suíte 1"
+                width={850}
+                height={315}
+                className="w-auto h-[200px] border-4 border-white"
+              />
+            </div>
+            <div className="flex flex-col gap-2 py-4">
+              <h2>Suíte 1</h2>
+              <p>Descrição da Suíte</p>
+              <button>Ler Mais</button>
+            </div>
+          </div>
+
+          <div className="grid gap-4 grid-cols-2">
+            <div className="flex gap-4">
+              <Image
+                src={Suite2}
+                alt="Suíte 1"
+                title="Suíte 1"
+                width={850}
+                height={315}
+                className="w-auto h-[200px] border-4 border-white"
+              />
+            </div>
+            <div className="flex flex-col gap-2 py-4">
+              <h2>Suíte 2</h2>
+              <p>Descrição da Suíte</p>
+              <button>Ler Mais</button>
+            </div>
+          </div>
+          <div className="grid gap-4 grid-cols-2">
+            <div className="flex gap-4">
+              <Image
+                src={Suite1}
+                alt="Suíte 1"
+                title="Suíte 1"
+                width={850}
+                height={315}
+                className="w-auto h-[200px] border-4 border-white"
+              />
+            </div>
+            <div className="flex flex-col gap-2 py-4">
+              <h2>Suíte 1</h2>
+              <p>Descrição da Suíte</p>
+              <button>Ler Mais</button>
+            </div>
+          </div>
+
+          <div className="grid gap-4 grid-cols-2">
+            <div className="flex gap-4">
+              <Image
+                src={Suite2}
+                alt="Suíte 1"
+                title="Suíte 1"
+                width={850}
+                height={315}
+                className="w-auto h-[200px] border-4 border-white"
+              />
+            </div>
+            <div className="flex flex-col gap-2 py-4">
+              <h2>Suíte 2</h2>
+              <p>Descrição da Suíte</p>
+              <button>Ler Mais</button>
+            </div>
           </div>
         </div>
       </picture>
