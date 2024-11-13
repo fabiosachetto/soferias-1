@@ -9,19 +9,19 @@ export default function Suites() {
       <h1 className="text-2xl text-center text-white mb-3">Suítes</h1>
 
       <picture className="container mx-auto my-6">
-        <div className="grid gap-4 grid-cols-2">
+        <div className="grid gap-4 grid-cols-3">
 
           {suites.map((suite) => {
             return (
-              <div key={suite.title} className="grid gap-4 grid-cols-2 bg-white bg-opacity-70 rounded-lg">
-                <div className="flex gap-4">
+              <div key={suite.title} className="py-3 pl-3 grid grid-cols-2 bg-white bg-opacity-70 rounded-lg">
+                <div className="flex">
                   <Image
                     src={`/assets/images/suites/${suite.image}`}
                     alt={suite.title}
                     title={suite.title}
-                    width={231}
-                    height={308}
-                    className="h-full w-full object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+                    width={200}
+                    height={200}
+                    className="object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
                   />
                 </div>
                 <div className="flex flex-col gap-2 py-4">
