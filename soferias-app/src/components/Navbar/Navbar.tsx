@@ -9,7 +9,7 @@ type NavbarOlLiProps = React.ComponentProps<"li">;
 
 const NavbarTag = ({ children, className, ...props }: NavbarTagProps) => {
   return (
-    <nav className={cn("float-right min-h-5 xl:w-auto mb:w-4/5 xl:mr-0 mb:mr-2 xl:mt-1 mb:mt-3", className)} {...props}>
+    <nav className={cn("float-right min-h-5 xl:w-auto mb:w-4/5 mr-0 xl:mt-1 mb:mt-3", className)} {...props}>
       {children}
     </nav>
   );
@@ -34,7 +34,7 @@ const NavbarOlLi = ({ children, className, ...props }: NavbarOlLiProps) => {
 export const Navbar = () => {
   return (
     <header className="w-full fixed text-center bg-white bg-opacity-70">
-      <section className="mt-2 inline-block xl:w-3/4 mb:w-5/6">
+      <section className="mt-2 inline-block xl:w-3/4 mb:w-11/12">
         <h1 className="float-left">
           <Link href="/" className="">
             <Image
