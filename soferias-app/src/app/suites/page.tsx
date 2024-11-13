@@ -14,7 +14,7 @@ export default function Suites() {
           {suites.map((suite) => {
             return (
               <div key={suite.title} className="py-3 pl-3 grid grid-cols-2 bg-white bg-opacity-70 rounded-lg">
-                <div className="flex">
+                <div className="flex flex-col mr-2.5">
                   <Image
                     src={`/assets/images/suites/${suite.image}`}
                     alt={suite.title}
@@ -24,10 +24,10 @@ export default function Suites() {
                     className="object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
                   />
                 </div>
-                <div className="flex flex-col gap-2 py-4">
+                <div className="flex flex-col gap-2 pr-2">
                   <h2 className="text-2xl/9 font-bold tracking-tight text-blue-500">{suite.title}</h2>
-                  <p className="text-lg">{suite.excerpt}</p>
-                  <button className="mx-auto font-semibold text-white text-center w-3/4 py-2 px-6 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800">Ler Mais</button>
+                  <p className="text-xl/6">{suite.suite_description}</p>
+                  <button className="text-xl/ mr-auto font-medium text-white w-auto py-1 px-2 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800">Ler Mais</button>
                 </div>
               </div>
             );

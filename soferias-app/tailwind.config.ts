@@ -7,6 +7,13 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      "ip": "390px",
+      "e7": "720px",
+      "xl": "1280px"
+      // => @media (min-width: 390px) { ... }
+    },
+
     extend: {
       
     },

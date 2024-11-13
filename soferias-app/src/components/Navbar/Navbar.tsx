@@ -17,7 +17,7 @@ const NavbarTag = ({ children, className, ...props }: NavbarTagProps) => {
 
 const NavbarOl = ({ children, className, ...props }: NavbarOlProps) => {
   return (
-    <ol className={cn("mr-4 float-left font-semibold text-white", className)} {...props}>
+    <ol className={cn("mr-4 float-left font-semibold text-white border xl:border-red-700 ip:border-blue-700 e7:border-green-600", className)} {...props}>
       {children}
     </ol>
   );
