@@ -11,15 +11,15 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="ml-1.5 rounded-lg bg-white bg-opacity-70 w-2/5">
-        <div className="sm:mx-auto sm:w-full sm:max-w-sm">
+      <div className="ml-1.5 px-7 rounded-lg bg-white bg-opacity-70 w-2/5">
+        <div className="">
           <h2 className="mt-10 text-2xl/9 font-bold tracking-tight text-blue-500">
             Procure Disponibilidade
           </h2>
           <p>Verifique no filtro abaixo a disponibilade das suítes que mais lhe agradar.</p>
         </div>
 
-        <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+        <div className="mt-10 ">
           <form action="#" method="POST" className="space-y-6">
             <div>
               <label htmlFor="select" className="block text-sm/6 font-medium text-gray-900">

@@ -2,7 +2,7 @@
 
 export default function Contato() {
   return (
-    <div className="flex min-h-full justify-center px-6 pt-10 lg:px-8">
+    <div className="flex min-h-full justify-center px-6 pt-10">
 
 
       <div className="rounded-lg bg-white bg-opacity-70 w-1/2">
@@ -12,10 +12,8 @@ export default function Contato() {
           </h2>
         </div>
 
-        <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+        <div className="mt-10 px-7">
           <form action="#" method="POST" className="space-y-6">
-
-
             <div>
               <div className="flex items-center justify-between">
                 <label htmlFor="name" className="block text-sm/6 font-medium text-gray-900">
