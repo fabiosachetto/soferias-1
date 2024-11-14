@@ -26,7 +26,7 @@ export default function Suites() {
                 </div>
                 <div className="flex flex-col gap-2 pr-2">
                   <h2 className="text-2xl/9 font-bold tracking-tight text-blue-500">{suite.title}</h2>
-                  <p className="text-xl/6">{suite.suite_description}</p>
+                  <p className="text-xl/6 text-gray-900">{suite.suite_description}</p>
                   <button className="text-xl/ mr-auto font-medium text-white w-auto py-1 px-2 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800">Ler Mais</button>
                 </div>
               </div>

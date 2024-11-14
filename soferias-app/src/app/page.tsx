@@ -18,7 +18,7 @@ export default function Home() {
             <h2 className="mt-10 text-2xl/9 font-bold tracking-tight text-blue-500">
               Procure Disponibilidade
             </h2>
-            <p className="text-black">Verifique no filtro abaixo a disponibilade das suítes que mais lhe agradar.</p>
+            <p className="text-gray-900">Verifique no filtro abaixo a disponibilade das suítes que mais lhe agradar.</p>
           </div>
 
           <div className="mt-10 ">
