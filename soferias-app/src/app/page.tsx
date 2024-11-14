@@ -18,7 +18,7 @@ export default function Home() {
             <h2 className="mt-10 text-2xl/9 font-bold tracking-tight text-blue-500">
               Procure Disponibilidade
             </h2>
-            <p>Verifique no filtro abaixo a disponibilade das suítes que mais lhe agradar.</p>
+            <p className="text-black">Verifique no filtro abaixo a disponibilade das suítes que mais lhe agradar.</p>
           </div>
 
           <div className="mt-10 ">
@@ -28,17 +28,17 @@ export default function Home() {
                   Número de Pessoas
                 </label>
                 <div className="mt-2">
-                  <select
-                    id="select"
-                    name="select"
-                    className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
+                  <input
+                    type="number"
+                    id="number"
+                    name="number"
+                    className="block w-full rounded-md border-0 py-1.5 px-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
                   />
                 </div>
               </div>
 
-              <div className="w-full grid grid-cols-1 md:grid-cols-2">
-
-                <div className="mr-1.5">
+              <div className="w-full grid grid-cols-2">
+                <div className="">
                   <div className="flex items-center justify-between">
                     <label htmlFor="date" className="block text-sm/6 font-medium text-gray-900">
                       Check-in
@@ -49,7 +49,7 @@ export default function Home() {
                       id="date"
                       name="date"
                       type="date"
-                      className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
+                      className="block w-full rounded-md border-0 py-1.5 px-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
                     />
                   </div>
                 </div>
@@ -65,7 +65,7 @@ export default function Home() {
                       id="date"
                       name="date"
                       type="date"
-                      className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
+                      className="block w-full rounded-md border-0 py-1.5 px-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
                     />
                   </div>
                 </div>
