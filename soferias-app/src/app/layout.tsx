@@ -31,7 +31,7 @@ export default function RootLayout({
         {/* <body className={`${geistSans.variable} ${geistMono.variable} bg-slate-600`}> */}
         <Navbar />
 
-        <section className="pt-16">
+        <section className="xl:pt-16 mb:pt-24 xl:px-0 mb:px-4">
           {children}
         </section>
 
