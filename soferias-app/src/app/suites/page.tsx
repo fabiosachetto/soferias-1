@@ -9,7 +9,7 @@ export default function Suites() {
       <h1 className="text-2xl text-center text-white mb-3">Suítes</h1>
 
       <picture className="container mx-auto my-6">
-        <div className="grid gap-4 grid-cols-3">
+        <div className="grid gap-4 xl:grid-cols-3 mb:grid-cols-1">
 
           {suites.map((suite) => {
             return (

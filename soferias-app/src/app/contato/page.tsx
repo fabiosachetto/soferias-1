@@ -5,7 +5,7 @@ export default function Contato() {
     <div className="flex min-h-full justify-center px-6 pt-10">
 
 
-      <div className="rounded-lg bg-white bg-opacity-70 w-1/2">
+      <div className="rounded-lg bg-white bg-opacity-70 xl:w-1/2 mb:w-11/12">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900">
             Preencha o Formulário abaixo que entraremos em contato.
