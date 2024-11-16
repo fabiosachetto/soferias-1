@@ -1,7 +1,12 @@
-import suites from "@/data/suites.json";
 import Image from "next/image";
+import Suite from "../libs/database/Suites";
 
-export default function Suites() {
+export default async function Suites() {
+
+  const suites = await Suite.get({ limit: 15, offset: 0 });
+
+  // console.log("*** - Página Suites:", suites);
+
   return (
 
     <div className="w-full p-3">
@@ -25,7 +30,7 @@ export default function Suites() {
                   />
                 </div>
                 <div className="flex flex-col gap-2 pr-2">
-                  <h2 className="text-2xl/9 font-bold tracking-tight text-blue-500">{suite.title}</h2>
+                  <h2 className="text-2xl/9 font-bold tracking-tight text-blue-500">{suite.id} - {suite.title}</h2>
                   <p className="text-xl/6 text-gray-900">{suite.suite_description}</p>
                   <button className="text-xl/ mr-auto font-medium text-white w-auto py-1 px-2 rounded-lg cursor-pointer border-blue-800 hover:border-blue-500 bg-blue-500 hover:bg-blue-800">Ler Mais</button>
                 </div>
