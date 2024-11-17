@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Suite from "../libs/database/Suites";
+import Suite from "../../libs/database/Suites";
 
 export default async function Suites() {
 
