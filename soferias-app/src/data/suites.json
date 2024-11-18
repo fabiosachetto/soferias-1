@@ -5,7 +5,7 @@
     "suite_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet neque ut magna aliquet commodo.",
     "content": "In a surprising discovery, a collector stumbled upon a never-before-seen Nintendo 64 game in their attic. The game, believed to be an unreleased title, has sparked curiosity and speculation within the gaming community.",
     "image_description": "An image representing the newly discovered Nintendo 64 game cartridge with an intriguing label.",
-    "image": "suite1.jpeg"
+    "image": "suite1.jpg"
   },
   {
     "title": "Suíte 2",
@@ -13,7 +13,7 @@
     "suite_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet neque ut magna aliquet commodo.",
     "content": "Rumors are swirling about Nintendo's plans to release a Nintendo 64 Classic Edition, similar to the NES and SNES Classic consoles. If true, fans can expect a compact console filled with their favorite Nintendo 64 games for a trip down memory lane.",
     "image_description": "Concept art imagining the design of the rumored Nintendo 64 Classic Edition console.",
-    "image": "suite2.jpeg"
+    "image": "suite2.jpg"
   },
   {
     "title": "Suíte 3",
@@ -21,7 +21,7 @@
     "suite_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet neque ut magna aliquet commodo.",
     "content": "Prepare for a nostalgic journey with the announcement of Banjo-Kazooie Remastered for the Nintendo 64. The classic platformer is getting a modern facelift, promising enhanced graphics and updated gameplay mechanics.",
     "image_description": "Banjo and Kazooie in a vibrant, reimagined world showcasing the remastered visuals.",
-    "image": "suite3.jpeg"
+    "image": "suite3.jpg"
   },
   {
     "title": "Suíte 4",
@@ -29,7 +29,7 @@
     "suite_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet neque ut magna aliquet commodo.",
     "content": "In a move that has delighted fans, Nintendo has released an update for GoldenEye 007 on the Nintendo 64, enabling online multiplayer functionality. Get ready to relive the classic shooter with friends from around the world.",
     "image_description": "Exciting multiplayer action in the updated GoldenEye 007, showcasing the online gaming experience.",
-    "image": "suite4.jpeg"
+    "image": "suite4.jpg"
   },
   {
     "title": "Suíte 5",
@@ -37,7 +37,7 @@
     "suite_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet neque ut magna aliquet commodo.",
     "content": "The Super Mario 64 speedrunning community is in awe as a talented gamer smashes the previous world record. Witness the precision and skill as this speedrunner navigates the iconic game in an astonishing time, leaving spectators in disbelief.",
     "image_description": "Celebratory moment as the speedrunner achieves the new Super Mario 64 world record, captured in a screenshot.",
-    "image": "suite5.jpeg"
+    "image": "suite5.jpg"
   },
   {
     "title": "Suíte 6",
@@ -45,7 +45,7 @@
     "suite_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet neque ut magna aliquet commodo.",
     "content": "A team of filmmakers has unveiled plans to create a documentary focused on the Nintendo 64. The film aims to explore the console's influence on the gaming industry and its enduring legacy, featuring interviews with developers, gamers, and industry experts.",
     "image_description": "Behind-the-scenes shot of the documentary production team capturing interviews with Nintendo 64 developers.",
-    "image": "suite6.jpeg"
+    "image": "suite6.jpg"
   },
   {
     "title": "Suíte 7",
@@ -53,7 +53,7 @@
     "suite_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet neque ut magna aliquet commodo.",
     "content": "Exciting news for Star Fox enthusiasts as Nintendo drops subtle hints about a possible sequel to the classic Star Fox 64. While details are scarce, the tease has ignited excitement and speculation about what the new installment might entail.",
     "image_description": "Teaser image with the iconic Arwing spacecraft, hinting at the potential Star Fox 64 sequel.",
-    "image": "suite7.jpeg"
+    "image": "suite7.jpg"
   },
   {
     "title": "Suíte 8",
@@ -61,62 +61,62 @@
     "suite_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet neque ut magna aliquet commodo.",
     "content": "A new Nintendo 64 emulator has hit the gaming scene, allowing players to experience their favorite N64 titles on contemporary consoles. Dive into the nostalgia of classic games with enhanced features on the latest gaming hardware.",
     "image_description": "Screen capture from the Nintendo 64 emulator, showcasing seamless gameplay on a modern console.",
-    "image": "suite8.jpeg"
-  },
-  {
-    "title": "Suíte 8-2",
-    "publish_date": "2024-11-15",
-    "suite_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet neque ut magna aliquet commodo.",
-    "content": "In a surprising move, developers at Rare have revealed that they are actively working on a new IP intended for the speculated Nintendo 64 successor. Fans are eager to learn more about this mysterious project from the renowned game development studio.",
-    "image_description": "Concept art teasing the art style and theme of Rare's upcoming intellectual property for the Nintendo 64 successor.",
-    "image": "suite8-2.jpeg"
+    "image": "suite8.jpg"
   },
   {
     "title": "Suíte 9",
     "publish_date": "2024-11-15",
     "suite_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet neque ut magna aliquet commodo.",
-    "content": "Passionate gamers have come together to launch the N64 Game Preservation Project, an ambitious initiative aimed at preserving and documenting every Nintendo 64 game. The project seeks to ensure that these classic titles remain accessible for future generations of players.",
-    "image_description": "Volunteers cataloging and preserving Nintendo 64 game cartridges as part of the preservation project.",
-    "image": "suite9.jpeg"
+    "content": "In a surprising move, developers at Rare have revealed that they are actively working on a new IP intended for the speculated Nintendo 64 successor. Fans are eager to learn more about this mysterious project from the renowned game development studio.",
+    "image_description": "Concept art teasing the art style and theme of Rare's upcoming intellectual property for the Nintendo 64 successor.",
+    "image": "suite9.jpg"
   },
   {
     "title": "Suíte 10",
     "publish_date": "2024-11-15",
     "suite_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet neque ut magna aliquet commodo.",
-    "content": "Nintendo Power has unveiled its highly anticipated list of the top 10 Nintendo 64 games of all time. As expected, the rankings have sparked passionate discussions and debates within the gaming community. Do you agree with the choices?",
-    "image_description": "Collage of iconic Nintendo 64 game covers featured in the Nintendo Power rankings, igniting fan discussions.",
-    "image": "suite10.jpeg"
+    "content": "Passionate gamers have come together to launch the N64 Game Preservation Project, an ambitious initiative aimed at preserving and documenting every Nintendo 64 game. The project seeks to ensure that these classic titles remain accessible for future generations of players.",
+    "image_description": "Volunteers cataloging and preserving Nintendo 64 game cartridges as part of the preservation project.",
+    "image": "suite10.jpg"
   },
   {
     "title": "Suíte 11",
     "publish_date": "2024-11-15",
-    "suite_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet neque ut magna aliquet commodo. Cras accumsan arcu arcu. Sed sodales egestas faucibus. In lectus leo, commodo id blandit vel, viverra in eros.",
-    "content": "Fans of Diddy Kong Racing rejoice as Nintendo confirms the development of a remake for the Nintendo 64. The classic racing game is set to receive a modern makeover, bringing back the beloved characters and thrilling tracks in stunning detail.",
-    "image_description": "Teaser image showcasing the updated graphics and characters in the upcoming Diddy Kong Racing remake.",
-    "image": "suite11.jpeg"
+    "suite_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet neque ut magna aliquet commodo.",
+    "content": "Nintendo Power has unveiled its highly anticipated list of the top 10 Nintendo 64 games of all time. As expected, the rankings have sparked passionate discussions and debates within the gaming community. Do you agree with the choices?",
+    "image_description": "Collage of iconic Nintendo 64 game covers featured in the Nintendo Power rankings, igniting fan discussions.",
+    "image": "suite11.jpg"
   },
   {
     "title": "Suíte 12",
     "publish_date": "2024-11-15",
     "suite_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet neque ut magna aliquet commodo. Cras accumsan arcu arcu. Sed sodales egestas faucibus. In lectus leo, commodo id blandit vel, viverra in eros.",
-    "content": "Excitement fills the air as Nintendo teases fans with a brief trailer hinting at a sequel to the classic Perfect Dark. The teaser, unveiled during a Nintendo Direct, leaves players eager to learn more about Joanna Dark's next adventure.",
-    "image_description": "Teaser screenshot from the Perfect Dark sequel, showcasing the iconic protagonist in a mysterious setting.",
-    "image": "suite12.jpeg"
+    "content": "Fans of Diddy Kong Racing rejoice as Nintendo confirms the development of a remake for the Nintendo 64. The classic racing game is set to receive a modern makeover, bringing back the beloved characters and thrilling tracks in stunning detail.",
+    "image_description": "Teaser image showcasing the updated graphics and characters in the upcoming Diddy Kong Racing remake.",
+    "image": "suite12.jpg"
   },
   {
     "title": "Suíte 13",
     "publish_date": "2024-11-15",
     "suite_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet neque ut magna aliquet commodo. Cras accumsan arcu arcu. Sed sodales egestas faucibus. In lectus leo, commodo id blandit vel, viverra in eros.",
-    "content": "Embrace the future of Nintendo 64 gaming with the launch of the Nintendo 64 Online Service. This new service enables players to connect online and enjoy multiplayer experiences in select N64 titles, creating a new era of social gaming.",
-    "image_description": "Promotional image illustrating the Nintendo 64 Online Service, featuring players connecting online for multiplayer fun.",
-    "image": "suite13.jpeg"
+    "content": "Excitement fills the air as Nintendo teases fans with a brief trailer hinting at a sequel to the classic Perfect Dark. The teaser, unveiled during a Nintendo Direct, leaves players eager to learn more about Joanna Dark's next adventure.",
+    "image_description": "Teaser screenshot from the Perfect Dark sequel, showcasing the iconic protagonist in a mysterious setting.",
+    "image": "suite13.jpg"
   },
   {
     "title": "Suíte 14",
     "publish_date": "2024-11-15",
     "suite_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet neque ut magna aliquet commodo. Cras accumsan arcu arcu. Sed sodales egestas faucibus. In lectus leo, commodo id blandit vel, viverra in eros.",
+    "content": "Embrace the future of Nintendo 64 gaming with the launch of the Nintendo 64 Online Service. This new service enables players to connect online and enjoy multiplayer experiences in select N64 titles, creating a new era of social gaming.",
+    "image_description": "Promotional image illustrating the Nintendo 64 Online Service, featuring players connecting online for multiplayer fun.",
+    "image": "suite14.jpg"
+  },
+  {
+    "title": "Suíte 15",
+    "publish_date": "2024-11-15",
+    "suite_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet neque ut magna aliquet commodo. Cras accumsan arcu arcu. Sed sodales egestas faucibus. In lectus leo, commodo id blandit vel, viverra in eros.",
     "content": "The Nintendo 64 homebrew community is thriving, with passionate developers creating innovative projects and games for the classic console. Explore the growing world of N64 homebrew and witness the creativity of the community.",
     "image_description": "Snapshot from a new homebrew game for the Nintendo 64, showcasing the ingenuity of the homebrew community.",
-    "image": "suite14.jpeg"
+    "image": "suite15.jpg"
   }
 ]
