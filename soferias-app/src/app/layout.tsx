@@ -1,19 +1,18 @@
 import { Navbar } from "@/components/Navbar/Navbar";
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
+// const geistSans = localFont({
+//   src: "./fonts/GeistVF.woff",
+//   variable: "--font-geist-sans",
+//   weight: "100 900",
+// });
 
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+// const geistMono = localFont({
+//   src: "./fonts/GeistMonoVF.woff",
+//   variable: "--font-geist-mono",
+//   weight: "100 900",
+// });
 
 export const metadata: Metadata = {
   title: "Só Férias",
@@ -27,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} bg-[url("https://euamoparaty.com.br/wp-content/uploads/2016/05/paraty-2.jpg")]`}>
+      <body className={`bg-[url("https://euamoparaty.com.br/wp-content/uploads/2016/05/paraty-2.jpg")]`}>
         {/* <body className={`${geistSans.variable} ${geistMono.variable} bg-slate-600`}> */}
         <Navbar />
 

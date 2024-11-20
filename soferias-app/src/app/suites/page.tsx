@@ -1,11 +1,12 @@
+import SuiteService from "@/services/Suites";
 import Image from "next/image";
-import Suite from "../../libs/database/Suites";
 
 export default async function Suites() {
+  const suites = await SuiteService.getSuites();
+  console.log("🚀 *** ~ Suites ~ suites:", suites);
 
-  const suites = await Suite.get({ limit: 15, offset: 0 });
+  // const suites = await Suite.get({ limit: 15, offset: 0 });
 
-  // console.log("*** - Página Suites:", suites);
 
   return (
 
@@ -16,7 +17,7 @@ export default async function Suites() {
       <picture className="container mx-auto my-6">
         <div className="grid gap-4 xl:grid-cols-3 mb:grid-cols-1">
 
-          {suites.map((suite) => {
+          {suites.data.map((suite) => {
             return (
               <div key={suite.title} className="py-3 pl-3 grid grid-cols-2 bg-white bg-opacity-70 rounded-lg">
                 <div className="flex flex-col mr-2.5">
@@ -36,7 +37,7 @@ export default async function Suites() {
                 </div>
               </div>
             );
-          })}
+          })};
         </div>
       </picture>
     </div>

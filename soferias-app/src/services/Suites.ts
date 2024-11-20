@@ -1,11 +1,24 @@
-// import Suite from "@/libs/database/Suites";
+import Suite from "@/libs/database/Suites";
 
-// const SuiteService = {
-//   getSuites : async (page=1, limit=10) => {
+const SuiteService = {
+  getSuites: async (page = 1, limit = 10) => {
+    const offset = (page -1) * limit;
+    const orderBy = {publishedAt: "desc"};
+    const data = await Suite.get({offset, limit, orderBy});
+    const total = await Suite.count({});
 
-//     Suite.get({})
+    return {
+      data,
+      metadata: {
+        page,
+        limit,
+        offset,
+        total,
+      },
+    };
+    // Suite.get({})
 
-//   }
-// };
+  },
+};
 
-// export default SuiteService;
+export default SuiteService;
