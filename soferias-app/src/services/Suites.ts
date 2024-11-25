@@ -6,6 +6,7 @@ const SuiteService = {
     const orderBy = {publishedAt: "desc"};
     const data = await Suite.get({ orderBy, limit, offset });
     const total = await Suite.count({});
+    const totalPages = Math.ceil(total / limit);
 
     return {
       data,
@@ -14,6 +15,7 @@ const SuiteService = {
         limit,
         offset,
         total,
+        totalPages
       },
     };
     // Suite.get({})

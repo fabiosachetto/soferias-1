@@ -1,3 +1,4 @@
+import { Pagination } from "@/components";
 import SuiteService from "@/services/Suites";
 import Image from "next/image";
 
@@ -38,6 +39,9 @@ export default async function Suites() {
               </div>
             );
           })};
+          <div className="">
+            <Pagination />
+          </div>
         </div>
       </picture>
     </div>
