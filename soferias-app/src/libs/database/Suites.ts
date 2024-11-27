@@ -6,7 +6,7 @@
  const MIN_OFFSET = 0;
 
  const Suite = {
-  get: async ({ where = {}, orderBy = {}, limit = 10, offset = 0 }) => {
+  get: async ({ where = {}, orderBy = {}, limit = 15, offset = 0 }) => {
 
     const take = Math.min(limit, MAX_RECORDS);
     const skip = Math.max(offset, MIN_OFFSET);

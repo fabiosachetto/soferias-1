@@ -38,12 +38,13 @@ export default async function Suites() {
                 </div>
               </div>
             );
-          })};
-          <div className="">
-            <Pagination />
-          </div>
+          })}
         </div>
       </picture>
+
+      <div className="">
+        <Pagination currentPage={suites.metadata.page} totalPages={suites.metadata.totalPages} />
+      </div>
     </div>
 
   );
