@@ -2,12 +2,13 @@ import { Pagination } from "@/components";
 import SuiteService from "@/services/Suites";
 import Image from "next/image";
 
-export default async function Suites() {
-  const suites = await SuiteService.getSuites();
-  console.log("🚀 *** ~ Suites ~ suites:", suites);
+export default async function Suites({ searchParams }: { searchParams?: { page?: string, limit?: string } }) {
 
-  // const suites = await Suite.get({ limit: 15, offset: 0 });
+  const paginaAtual = Number(searchParams?.page) || 1;
 
+  const limit = Number(searchParams?.limit) || 1;
+
+  const suites = await SuiteService.getSuites(paginaAtual, limit);
 
   return (
 
@@ -42,7 +43,7 @@ export default async function Suites() {
         </div>
       </picture>
 
-      <div className="">
+      <div className="w-auto mt-8 text-center">
         <Pagination currentPage={suites.metadata.page} totalPages={suites.metadata.totalPages} />
       </div>
     </div>
